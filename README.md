@@ -17,8 +17,9 @@ Python, Pandas, NumPy, Matplotlib, Seaborn, Jupyter Notebook
 ## Files
 
 - `airline_review_analysis.ipynb`: analysis workflow and interpretation
+- `ETM1005_A2_AirlineReviews.csv`: source review dataset with the reviewer-name column removed
 - `requirements.txt`: Python packages used by the notebook
 
 ## Data
 
-The course dataset is not included because redistribution permission has not been confirmed. To reproduce the notebook, place the authorized dataset in the project folder as `ETM1005_A2_AirlineReviews.csv`.
+The included CSV contains 8,100 airline reviews. The original `Name` column was removed before publication because it is not used in the analysis. The notebook creates a reproducible 600-review sample using a fixed random seed.
